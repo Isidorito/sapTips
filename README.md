@@ -9,4 +9,10 @@ FM para skippear Authority Checks.
   
 Calcular cantidad de entradas de una tabla interna.
   variable = lines( itab_name ).
+  
+BatchInput Modes
+
+  A--> All display
+  E--> Errors display
+  N--> No display
 
