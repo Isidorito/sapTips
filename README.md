@@ -1,18 +1,18 @@
 # sapTips
-Repo de handy notes para SAP
+## Repo de handy notes para SAP
 
-Prog para desbloquear OT liberadas.
-  RDDIT076 (Pasar a Status D)
+**Prog para desbloquear OT liberadas.**
+- RDDIT076 (Pasar a Status D)
 
-FM para skippear Authority Checks.
-  RS_HDSYS_CALL_TC_VARIANT
+**FM para skippear Authority Checks.**
+- RS_HDSYS_CALL_TC_VARIANT
   
-Calcular cantidad de entradas de una tabla interna.
-  variable = lines( itab_name ).
+**Calcular cantidad de entradas de una tabla interna.**
+- variable = lines( itab_name ).
   
-BatchInput Modes
+**BatchInput Modes**
 
-  A--> All display
-  E--> Errors display
-  N--> No display
+- A--> All display
+- E--> Errors display
+- N--> No display
 
