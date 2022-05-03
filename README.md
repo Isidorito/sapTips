@@ -27,6 +27,6 @@ ASSIGN (lw_field) TO <fs>.
 ```
 
 **Buscar stings en muchos programas**
-```
-RPR_ABAP_SOURCE_SCAN
-```
+
+- RPR_ABAP_SOURCE_SCAN
+
