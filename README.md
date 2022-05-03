@@ -18,10 +18,15 @@ variable = lines( itab_name ).
 - E--> Errors display
 - N--> No display
 
-**Recuperar variables del stack
+**Recuperar variables del stack**
 ```
 data: lw_field(30).
 FIELD-SYMBOLS <fs> TYPE STANDARD TABL
 lw_field = '(SAPLMEPO)POT[]'.
 ASSIGN (lw_field) TO <fs>.
+```
+
+**Buscar stings en muchos programas**
+```
+RPR_ABAP_SOURCE_SCAN
 ```
