@@ -30,3 +30,6 @@ ASSIGN (lw_field) TO <fs>.
 
 - RPR_ABAP_SOURCE_SCAN
 
+**Obtener nombre de SAP User**
+
+- Tabla USER_ADDRP
