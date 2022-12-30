@@ -26,10 +26,14 @@ lw_field = '(SAPLMEPO)POT[]'.
 ASSIGN (lw_field) TO <fs>.
 ```
 
-**Buscar stings en muchos programas**
+**Buscar strings en muchos programas**
 
 - RPR_ABAP_SOURCE_SCAN
 
 **Obtener nombre de SAP User**
 
 - Tabla USER_ADDRP
+
+**FM Para agregar entradas en tabla SIN SM30**
+
+- SE16N_INTERFACE
