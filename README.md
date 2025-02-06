@@ -1,3 +1,120 @@
+
+Skip to content
+Navigation Menu
+
+    Isidorito
+
+    sapTips
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+    sapTips
+
+/
+in
+main
+
+Indent mode
+Indent size
+Line wrap mode
+Editing README.md file contents
+Selection deleted
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
 # sapTips
 ## Repo de handy notes para SAP
 
@@ -65,7 +182,7 @@ Title=Debugger
 Type=SystemCommand
 ```
 
-**FM para convertir a formato de texto
+**FM para convertir a formato de texto**
 Pasa de una tabla con múltiples columnas a una tabla de una sola columna.
 ```
     DATA: lt_download TYPE truxs_t_text_data.
@@ -82,23 +199,9 @@ Pasa de una tabla con múltiples columnas a una tabla de una sola columna.
         OTHERS               = 2.
 ```
 
-**Hacer editable los campos XREF1 - XREF2 - XREF3 en la MIRO
-#Prog: LMR1MF6Q
-#Form: MODIFY_FI_SCREEN
-```
-ENHANCEMENT 1  Z_MIRO_XREF3.    "active version
-PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF3'  'ACTIVE'  '1'.
-PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF2'  'ACTIVE'  '1'.
-PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF1'  'ACTIVE'  '1'.
-ENDENHANCEMENT.
-```
-
-```
-Luego hay que appendear los campos en las estructuras:
-RBKP
-ACMM_VENDOR_COMP
-RBKP_V
-```
-
-
-
+**Hacer editable los campos XREF1 - XREF2 - XREF3 en la MIRO**
+ - Prog: LMR1MF6Q
+ - Form: MODIFY_FI_SCREEN
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Attach files by dragging & dropping, selecting or pasting them.
+Editing sapTips/README.md at main · Isidorito/sapTips
