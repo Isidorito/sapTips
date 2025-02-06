@@ -85,3 +85,17 @@ Pasa de una tabla con múltiples columnas a una tabla de una sola columna.
 **Hacer editable los campos XREF1 - XREF2 - XREF3 en la MIRO**
  - Prog: LMR1MF6Q
  - Form: MODIFY_FI_SCREEN
+```
+ENHANCEMENT 1  Z_MIRO_XREF3.    "active version
+PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF3'  'ACTIVE'  '1'.
+PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF2'  'ACTIVE'  '1'.
+PERFORM modify_fi_subscreen TABLES t_acscr USING  'XREF1'  'ACTIVE'  '1'.
+ENDENHANCEMENT.
+```
+
+```
+Luego hay que appendear los campos en las estructuras:
+RBKP
+ACMM_VENDOR_COMP
+RBKP_V
+```
